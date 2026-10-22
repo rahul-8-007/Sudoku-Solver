@@ -84,7 +84,7 @@ def main():
 
     print("Sudoku Puzzle:")
     print_board(board)
-    # printing
+    # printing the answer
     if solve_sudoku(board):
         print("\nSolved Sudoku:")
         print_board(board)
